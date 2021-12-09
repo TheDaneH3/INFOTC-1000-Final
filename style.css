@@ -1,3 +1,4 @@
+/* Body */
 
 body {
     background-color: rgb(39, 39, 39);
@@ -7,6 +8,8 @@ body {
     padding: 0px;
     margin: 0px;
 }
+
+/* Classes */
 
 .centered{
     text-align: center;
@@ -20,10 +23,7 @@ body {
     align-content: center;
 }
 
-.flex-container > div {
-    height: 50px;
-    text-align: center;
-}
+/* Header */
 
 header {
     color: rgb(255, 255, 255);
@@ -32,7 +32,18 @@ header {
     padding: 10px;
 }
 
-nav a {
+/* Navigation */
+
+nav .flex-container > div {
+    height: 50px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 9px;
+}
+
+nav div a {
     color: white;
     text-decoration: none;
     border: 2px solid white;
@@ -44,6 +55,16 @@ nav a {
 nav a:hover {
     background-color: rgb(36, 84, 146);
 }
+
+/* Content */
+
+main div.block {
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+/* Footer */
 
 footer {
     margin: 0px;
