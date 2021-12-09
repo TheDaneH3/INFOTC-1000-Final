@@ -4,6 +4,8 @@ body {
     font-family: 'consolas', monospace;
     color: rgb(255, 255, 255);
     font-size: 14px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .centered{
@@ -23,7 +25,7 @@ body {
     text-align: center;
 }
 
-header{
+header {
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 20px;
@@ -35,7 +37,7 @@ nav a {
     text-decoration: none;
     border: 2px solid white;
     border-radius: 20px;
-    margin: 8px;
+    margin: 10px;
     padding: 10px 20px;
 }
 
@@ -43,10 +45,16 @@ nav a:hover {
     background-color: rgb(36, 84, 146);
 }
 
-footer{
-    position: fixed;
-    text-align: center;
+footer {
+    margin: 0px;
     width: 100%;
+    position: fixed;
     bottom: 0;
+}
+
+footer div {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-align: center;
     padding: 10px;
 }
