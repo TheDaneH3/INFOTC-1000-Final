@@ -1,15 +1,15 @@
 /* Body */
 
 body {
+    margin: 0px;
+    padding: 0px;
     background-color: rgb(39, 39, 39);
+    font-size: 14px;
     font-family: 'consolas', monospace;
     color: rgb(255, 255, 255);
-    font-size: 14px;
-    padding: 0px;
-    margin: 0px;
 }
 
-/* Classes */
+/* General */
 
 .centered{
     text-align: center;
@@ -26,30 +26,30 @@ body {
 /* Header */
 
 header {
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 20px;
     padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
 }
 
 /* Navigation */
+
+nav {
+    margin-top: 9px;
+}
 
 nav .flex-container > div {
     height: 50px;
     text-align: center;
 }
 
-nav {
-    margin-top: 9px;
-}
-
 nav div a {
-    color: white;
-    text-decoration: none;
+    margin: 10px;
     border: 2px solid white;
     border-radius: 20px;
-    margin: 10px;
     padding: 10px 20px;
+    text-decoration: none;
+    color: white;
 }
 
 nav a:hover {
@@ -60,22 +60,24 @@ nav a:hover {
 
 main div.block {
     display: block;
-    width: 60%;
     margin: auto;
+    max-width: 700px;
+    padding: 20px;
+    text-align: justify;
 }
 
 /* Footer */
 
 footer {
-    margin: 0px;
-    width: 100%;
     position: fixed;
     bottom: 0;
+    margin: 0px;
+    width: 100%;
 }
 
 footer div {
-    color: rgb(255, 255, 255);
+    padding: 10px;
     font-size: 12px;
     text-align: center;
-    padding: 10px;
+    color: rgb(255, 255, 255);
 }
