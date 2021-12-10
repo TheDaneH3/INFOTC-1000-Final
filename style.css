@@ -26,20 +26,30 @@ body {
 /* Header */
 
 header {
+    margin-bottom: -20px;
     min-width: 470px;
     font-size: 30px;
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
 
+header h6 {
+    margin-top: -18px;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(184, 184, 184);
+}
+
 /* Navigation */
 
 nav {
     margin-top: 9px;
+    
 }
 
 nav .flex-container > div {
     height: 50px;
+    padding-top: 15px;
     text-align: center;
 }
 
@@ -47,8 +57,9 @@ nav div a {
     margin: 10px;
     border: 2px solid white;
     border-radius: 20px;
-    padding: 10px 20px;
+    padding: 10px 40px;
     font-size: 20px;
+    font-weight: bold;
     text-decoration: none;
     color: white;
 }
@@ -63,6 +74,7 @@ nav a:hover {
 main div.block {
     display: block;
     margin: auto;
+    margin-top: -10px;
     max-width: 700px;
     padding: 0px 20px;
     font-size: 17px;
