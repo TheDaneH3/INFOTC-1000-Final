@@ -26,8 +26,8 @@ body {
 /* Header */
 
 header {
-    padding: 10px;
-    font-size: 20px;
+    min-width: 470px;
+    font-size: 30px;
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
@@ -48,12 +48,14 @@ nav div a {
     border: 2px solid white;
     border-radius: 20px;
     padding: 10px 20px;
+    font-size: 20px;
     text-decoration: none;
     color: white;
 }
 
 nav a:hover {
-    background-color: rgb(36, 84, 146);
+    background-color: white;
+    color: black;
 }
 
 /* Content */
@@ -62,7 +64,8 @@ main div.block {
     display: block;
     margin: auto;
     max-width: 700px;
-    padding: 20px;
+    padding: 0px 20px;
+    font-size: 17px;
     text-align: justify;
 }
 
