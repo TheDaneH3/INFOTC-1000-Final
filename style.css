@@ -4,16 +4,11 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: rgb(39, 39, 39);
-    font-size: 14px;
     font-family: 'consolas', monospace;
     color: rgb(255, 255, 255);
 }
 
 /* General */
-
-.centered{
-    text-align: center;
-}
 
 .flex-container {
     display: flex;
@@ -29,6 +24,7 @@ header {
     margin-bottom: -20px;
     font-size: 30px;
     font-weight: bold;
+    text-align: center;
     color: rgb(255, 255, 255);
 }
 
@@ -70,6 +66,13 @@ nav a:hover {
 
 /* Content */
 
+main p {
+    margin-bottom: 2em;
+    font-size: 17px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+
 main div.block {
     display: block;
     margin: auto;
@@ -77,6 +80,7 @@ main div.block {
     max-width: 700px;
     padding: 0px 20px;
     font-size: 17px;
+    line-height: 2;
     text-align: justify;
 }
 
