@@ -69,6 +69,7 @@ nav a:hover {
 main p {
     margin-bottom: 2em;
     font-size: 17px;
+    font-family: 'source-sans-pro', sans-serif;
     font-weight: normal;
     color: rgb(255, 255, 255);
 }
