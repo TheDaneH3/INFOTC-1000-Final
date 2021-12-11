@@ -88,6 +88,14 @@ pre code {
     color: rgb(54, 152, 197);
 }
 
+main a:link {
+    color: rgb(54, 152, 197);
+}
+
+main a:visited {
+    color: rgb(35, 100, 131);
+}
+
 main p {
     margin-bottom: 2em;
     font-size: 17px;
@@ -95,8 +103,6 @@ main p {
     font-weight: normal;
     color: rgb(255, 255, 255);
 }
-
-
 
 main table, th, td {
     margin: auto;
