@@ -59,23 +59,33 @@ nav div a {
     color: white;
 }
 
+nav div .active {
+    background-color: rgb(47, 64, 75);
+    color: white;
+}
+
 nav a:hover {
     background-color: white;
     color: black;
 }
 
+
 /* Content */
 
 pre {
     white-space: break-spaces;
+    margin-bottom: 40px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
     border: 0px;
     border-radius: 30px;
     padding: 50px;
     background-color: rgb(61, 61, 61);
+}
+
+pre code {
     font-size: 16px;
     font-family: 'consolas', monospace;
-    color: rgb(114, 114, 114);
+    color: rgb(42, 118, 153);
 }
 
 main p {
@@ -85,6 +95,14 @@ main p {
     font-weight: normal;
     text-align: left;
     color: rgb(255, 255, 255);
+}
+
+main img {
+    height: auto;
+    margin-bottom: 2em;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.479);
+    border: 10px solid rgb(61, 61, 61);
+    border-radius: 30px;
 }
 
 main div.spacer {
