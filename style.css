@@ -105,6 +105,13 @@ main img {
     border-radius: 30px;
 }
 
+main table, th, td {
+        margin: auto;
+        border: 1px solid white;
+        border-collapse: collapse;
+        padding: 1em;
+}
+
 main div.spacer {
     display: block;
     width: 100%;
