@@ -93,7 +93,6 @@ main p {
     font-size: 17px;
     font-family: 'source-sans-pro', sans-serif;
     font-weight: normal;
-    text-align: left;
     color: rgb(255, 255, 255);
 }
 
@@ -126,7 +125,6 @@ main section.block {
     padding: 0px 20px;
     font-size: 17px;
     line-height: 2;
-    text-align: justify;
 }
 
 /* Footer */
